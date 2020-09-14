@@ -8,6 +8,7 @@ on:
   schedule:
     - cron: '0 5 31 2 *'
 
+
 jobs:
   ibm-cloud-restart:
     runs-on: ubuntu-latest
